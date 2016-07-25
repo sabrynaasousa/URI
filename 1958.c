@@ -2,10 +2,10 @@
 
 int main (){
 
-	long double n;
+    long double n;
     char s[120];
 
-	scanf ("%LE", &n);
+    scanf ("%LE", &n);
 
     sprintf ( s, "%LE", n );
     if ( s[0] != '-' ){
